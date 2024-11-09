@@ -1,0 +1,124 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Product Section */
+.product-section {
+  display: flex;
+  justify-content: center;
+  padding: 3em 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.product-card {
+  background: #f4f4f4;
+  padding: 2em;
+  border-radius: 8px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 8px;
+  width: 29;
+  height: 13;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #333;
+  margin: 1em 0;
+}
+
+/* Bitcoin Button */
+.bitcoin-button {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #f7931a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.bitcoin-button:hover {
+  background-color: #e68200;
+}
+
+/* Policies Section */
+.policies {
+  padding: 2em 0;
+  background-color: #fff;
+}
+
+.policies h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* Contact Section */
+.contact {
+  padding: 2em 0;
+  background-color: #f4f4f4;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact label, .contact input, .contact textarea {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.contact input, .contact textarea {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
